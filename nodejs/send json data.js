@@ -8,11 +8,13 @@ var server =  http.createServer(function(req,res){
     res.writeHead(200,{'Content-Type': 'text/html' }) ; 
 
 
-var myObj =  {
-    name: 'sn'  , 
-    job: 'sfgds'  , 
-    age: '25' ,  
-} ; 
+    var myObj =  {
+        name: 'sn'  , 
+        job: 'sfgds'  , 
+        age: '25' ,  
+    } ; 
 
-res.end(JSON.stringify(  myObj  )   ) ; 
+    res.end(JSON.stringify(  myObj  )   ) ; 
     
+
+}) ; 
