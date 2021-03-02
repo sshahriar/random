@@ -1,0 +1,24 @@
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>Personal Site  </title>
+  </head>
+    
+  <body>
+    <p> here </p> 
+    <h1> <%= person %>     </h1>    
+    <p>  age: <%= data.age %>     </p>    
+    <p>  job: <%= data.job %>     </p>    
+    <p>  job: <%= data.job %>     </p>    
+    
+    <% data.bal.forEach( function (item) {  %>   // this  is important   <%
+        <p>  job: <%= item %>     </p>          // here used  <%=   %> 
+ 
+ 
+    <%})%>   
+  </body>
+
+</html>
+ 
