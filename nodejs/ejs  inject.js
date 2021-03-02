@@ -17,7 +17,7 @@ app.get( '/profile/:name'  ,  function(req, res ) {
     console.log( "last"  + req.url ) ; 
     // res.send( "requested " +  req.params.name ) ; 
 
-    var  data  =  {age: 25, job: 'bekar' }  ;
+    var  data  =  {age: 25, job: 'bekar', bal :['brus' ,  'any '] }  ;
     res.render('profile' ,{person : req.params.name  ,data:data  }  )  ;
 
 
