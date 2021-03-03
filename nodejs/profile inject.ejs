@@ -1,0 +1,28 @@
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>Personal Site  </title>
+  </head>
+    
+  <body> 
+
+    <!-- <%  'include partials/nav.ejs' %> -->
+    <%- include("./partials/nav.ejs") %>
+
+    <p> here n prfile  </p> 
+    <h1> <%= person %>     </h1>    
+    <p>  age: <%= data.age %>     </p>    
+    <p>  job: <%= data.job %>     </p>    
+    <p>  job: <%= data.job %>     </p>    s
+    
+    <% data.bal.forEach( function (item) {  %>  
+        <p>  job: <%= item %>     </p>    
+ 
+ 
+    <%})%>   
+  </body>
+
+</html>
+ 
