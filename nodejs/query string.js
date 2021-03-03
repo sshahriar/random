@@ -13,7 +13,7 @@ app.get('/contact' , function( req , res ) {
 
     console.log( "request was  made "  +req.url )  ;
     console.log(req.query)  ; 
-    res.render( 'contact' ,  {  qs: req.query}) ; 
+    res.render( 'contact' ,  {  qs: req.query}) ;  //carefull req.q  no res.qr
     
 
 
