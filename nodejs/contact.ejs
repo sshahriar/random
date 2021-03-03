@@ -1,0 +1,28 @@
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>Personal Site  </title>
+  </head>
+    
+  <body> 
+    <!-- <%- include("./partials/nav.ejs") %> -->
+    
+
+    <p> contact page </p> 
+    <p> <%= qs.dept %> </p>  
+    <form id = "contact-form">
+      <lebel for="who"> who  to contact :  </lebel>
+      <input type = "text" name = "who"  value="<%= qs.person %>" />
+      <br>
+      <lebel for="department"> which department : </lebel>
+      <input type = "text" name = "department" value="<%= qs.dept %>" />
+
+
+
+    </form>
+  </body>
+
+</html>
+ 
